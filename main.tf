@@ -13,7 +13,7 @@ resource "azurerm_container_registry" "aks_acr" {
 #Create AKS cluster
 resource "azurerm_kubernetes_cluster" "aks" {
   name                = var.cluster_name
-  kubernetes_version  = var.kubernetes_version
+  kubernetes_version  = var.kubernetes_versio
   location            = azurerm_resource_group.aks_rg.location
   resource_group_name = azurerm_resource_group.aks_rg.name
   dns_prefix          = var.cluster_name
