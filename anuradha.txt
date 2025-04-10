@@ -1,1 +1,1 @@
-print("hello world"sfdfg
+print("hello world")
